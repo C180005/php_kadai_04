@@ -1,10 +1,10 @@
-<?php require 'header_03.php';?>
+<?php require 'header.php';?>
 <main>
 	<div class="clearfix">
 		<h2>地域を選んで下さい</h2>
-		<form action="list_selected_03.php" name="search_form" method="get">
+		<form action="list_selected.php" name="search_form" method="get">
 <?php
-require 'area_class_03.php';
+require 'area_class.php';
 $listbox = "<select name=\"area\">\n";
 for ($i = 0; $i < count($area); $i ++) {
     $listbox .= "\t<option value=\"{$area[$i]}\">{$area[$i]}</option>\n";
@@ -16,4 +16,4 @@ echo "{$listbox}";
 		</form>
 	</div>
 </main>
-<?php require 'footer_03.php';?>
+<?php require 'footer.php';?>

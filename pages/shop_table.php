@@ -20,7 +20,7 @@ foreach ($shop_no_selected as $tt) {
                             <dd>{$g5} </dd>
                           </dl>
                        </td>
-                       <td class='detail'><a href='detail_03.php?id={$g1}'>詳細</a></td>
+                       <td class='detail'><a href='detail.php?id={$g1}'>詳細</a></td>
                        </tr>";
 
     }

@@ -9,6 +9,6 @@
 <body id="list">
 	<header>
 		<h1>
-			<a href="list_03.php">レストラン・レビュ・サイト</a>
+			<a href="list.php">レストラン・レビュ・サイト</a>
 		</h1>
 	</header>

@@ -1,6 +1,6 @@
 <?php
-require 'header_detail_03.php';
-require 'list_all_03.php';
+require 'header_detail.php';
+require 'list_all.php';
 require 'list_review_all.php';
 ?>
 <main>
@@ -66,4 +66,4 @@ echo "<tr>
 		</form>
 	</article>
 </main>
-<?php require 'footer_03.php';?>
+<?php require 'footer.php';?>
